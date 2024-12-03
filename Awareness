@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f9f9f9;
+        }
+        .alert {
+            color: red;
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="alert">Warning: This was a phishing attempt!</h1>
+    <p>You clicked on a simulated phishing link. This is a demonstration to raise your awareness about online security.</p>
+    <p>If you think you've been phished, change your passwords immediately and contact your IT support team.</p>
+</body>
+</html>
