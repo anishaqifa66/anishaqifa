@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giveaway Poster</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+        }
+
+        .poster-container {
+            padding: 20px;
+            text-align: center;
+            background: linear-gradient(180deg, #000000, #1a1a1a); /* Gradient effect */
+            color: #fff;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #FFD700; /* Gold */
+            font-weight: bold;
+            text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #FFD700; /* Gold */
+            text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+        }
+
+        .highlight {
+            color: #FFD700; /* Gold */
+            font-weight: bold;
+        }
+
+        .steps {
+            text-align: left;
+            display: inline-block;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: #333;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+            width: 80%;
+            color: #fff;
+        }
+
+        .steps p {
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+
+        .prizes {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #111;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+        }
+
+        .prize-item {
+            text-align: center;
+        }
+
+        .prize-item img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #FFD700;
+            border-radius: 10px;
+        }
+
+        .prize-item h3 {
+            color: #FFD700; /* Gold */
+            margin: 10px 0;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #FFD700;
+            font-size: 1rem;
+        }
+
+        .footer a {
+            color: #FFD700;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .limited-offer {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            color: #FFD700;
+            font-weight: bold;
+            text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700;
+        }
+    </style>
+</head>
+<body>
+    <div class="poster-container">
+        <h1>EXCITING GIVEAWAY ALERT!</h1>
+        <h2>Win Exclusive Prizes!</h2>
+        <div class="steps">
+            <p><span class="highlight">1.</span> Register at <a href="#" class="highlight">kbbconoco.online/register</a></p>
+            <p><span class="highlight">2.</span> Complete the challenge by <span class="highlight">30th December 2024</span></p>
+            <p><span class="highlight">3.</span> Follow us on social media for updates</p>
+        </div>
+        <div class="prizes">
+            <div class="prize-item">
+                <img src="ipad-pro.png" alt="Grand Prize">
+                <h3>Grand Prize: Apple iPad Pro</h3>
+                <p>13-inch (M4) WiFi 2024 - Space Black</p>
+            </div>
+            <div class="prize-item">
+                <img src="merchandise.png" alt="Bonus Prize">
+                <h3>Bonus Prize: Merchandise</h3>
+                <p>High-quality branded bags & jackets</p>
+            </div>
+        </div>
+        <p class="limited-offer">Limited Offer! Hurry Up!</p>
+        <div class="footer">
+            Brought to you by: <span class="highlight">KPOC x Conoco</span>
+        </div>
+    </div>
+</body>
+</html>
